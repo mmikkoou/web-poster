@@ -1,0 +1,6 @@
+@import "content.css";
+@font-face {
+  font-family: 'PT Serif';
+  src: url('fonts/PTSerif-Bold.ttf');
+  src: url('fonts/PTSerif-Regular.ttf');
+}
