@@ -1,0 +1,212 @@
+.screen {
+  width: 1440px;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.bg {
+  width: 512px;
+  height: 220px;
+  top: 40px;
+  left: 26%;
+  position: absolute;
+}
+.hi {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-size: 144px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  top: 390px;
+  left: 23%;
+  width: 1000px;
+  position: absolute;
+}
+.data {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-size: 240px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  width: 1359px;
+  height: 318px;
+  top: 590px;
+  left: 12%;
+  position: absolute;
+}
+
+
+.line1 {
+  width: 288px;
+  height: 333px;
+  top: 1500px;
+  left: 50%;
+  position: relative;
+}
+
+.fire {
+  width: 291px;
+  height: 482px;
+  top: 1455px;
+  right: 12%;
+  position: absolute;
+}
+
+.line2 {
+  width: 880px;
+  height: 290px;
+  top: 1970px;
+  left: 25%;
+  position: absolute;
+}
+
+
+.circle1 {
+  width: 660px;
+  height: 660px;
+  top: 1800px;
+  left: -200px;
+  border-radius: 100%;
+  background: black;
+  position: relative;
+}
+
+.circle2 {
+  width: 200px;
+  height: 200px;
+  top: 1700px;
+  left: 25%;
+  border-radius: 100%;
+  background: black;
+  position: relative;
+}
+
+.circle3 {
+  width: 80px;
+  height: 80px;
+  top: 1400px;
+  left: 38%;
+  border-radius: 100%;
+  background: black;
+  position: relative;
+}
+
+.circle4 {
+  width: 700px;
+  height: 700px;
+  top: 2000px;
+  left: -7%;
+  position: absolute;
+}
+
+
+.line3 {
+  height: 210px;
+  top: 2820px;
+  left: 10%;
+  position: absolute;
+}
+
+
+.date {
+  width: 1400px;
+  height: 330px;
+  top: 1770px;
+  left: 10%;
+  position: relative;
+}
+.d-el {
+  width: 206px;
+  height: 100%;
+  background: black;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  border-radius: 4px;
+}
+.d-t {
+  width: 40px;
+  height: 100%;
+  display: inline-block;
+  color: black;
+  vertical-align: top;
+  font-size: 144px;
+  padding: 200px 0;
+  font-weight: bold;
+}
+
+
+.clock {
+  width: 1000px;
+  height: 330px;
+  top: 1790px;
+  left: 23%;
+  position: relative;
+}
+.cl-el {
+  width: 206px;
+  height: 100%;
+  background: black;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+border-radius: 4px;
+}
+.cl-dv {
+  width: 40px;
+  height: 100%;
+  display: inline-block;
+  color: black;
+  vertical-align: top;
+  font-size: 144px;
+  padding: 70px 0;
+  font-weight: bold;
+  animation: sec 1s infinite;
+}
+
+.num {
+  width: 206px;
+  color: white;
+  display: inline-block;
+  font-family: 'PT Serif';
+  font-size: 288px;
+  text-align: center;
+  line-height: 340px;
+  position: absolute;
+  top: 0;
+}
+
+.line4 {
+  width: 1120px;
+  height: 770px;
+  top: 1800px;
+  left: 8%;
+  position: relative;
+}
+
+.table {
+  width: 1440px;
+  height: 1872px;
+  top: 1840px;
+  left: 0;
+  position: relative;
+}
+
+.min-e {
+  animation: min 600s steps(10) infinite;
+}
+
+@keyframes sec {
+  0% {opacity: 1;}
+  10% {opacity: 0;}
+  90% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes min {
+  0% {top: 0;}
+  100% {top: -1000%;}
